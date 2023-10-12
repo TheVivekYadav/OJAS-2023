@@ -7,7 +7,7 @@
     transition: 400ms;
 }
 body{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 /* back part */
 .back{
