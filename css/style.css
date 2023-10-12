@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Bangers&family=Rubik:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    transition: 400ms;
+}
+body{
+    overflow: hidden;
+}
+/* back part */
+.back{
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFF9F1;
+    /* background-color: black; */
+    position: absolute;
+}
+
+.back .flowers{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.back .flowers .flowers-at-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.back .flowers .flowers-at-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-left:3vw;
+    padding-bottom: 10vw;
+}
+.img  svg{
+    width:10vmax;
+}
+.back .flowers .flowers-at-bottom .img:nth-child(1) svg{
+    width: 12vw;
+}
+
+.back .flowers .flowers-at-bottom .img:nth-child(2) svg{
+    width: 20vw;
+}
+
+
+.back .flowers-at-top{
+    display: flex;
+    justify-content: space-between;
+}
+/* front part */
+.front{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    color: #7B6823;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
+
+.front .container{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+
+.front .container .top{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.ojas-2023{
+    font-size:8vmax;
+    font-family: 'Alex Brush' ;
+}
+.dept-of-cs{
+    font-size: 2.5vmax;
+}
+.invites-you{
+    font-size: 3vmax;
+}
+.to{
+    font-size: 3.5vmax;
+    font-weight: 900;
+}
+.webmasters-wars{
+    font-size: 5vmax;
+    font-family: 'Rubik';
+}
+.accelerating-web-inovotation{
+    font-size: 2vmax;
+    font-weight: 200;
+}
+
+.image img{
+    width: 30vw;
+}
+
+.bottom{
+    font-size: 2vmax;
+    opacity: .5;
+}
+
